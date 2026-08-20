@@ -28,7 +28,7 @@ export default async function Home() {
 
   return (
     <main className="bg-purple-100"> 
-    <div className="min-h-screen flex flex-col justify-center gap-6 py-6">
+    <div className="flex flex-col gap-6 py-10 md:min-h-screen md:justify-center md:py-6">
         <section className="grid grid-cols-1 md:grid-cols-2 gap-6 md:h-[38vh] items-center px-6 md:px-8">   
 <div className="flex flex-col gap-3 items-center md:items-start justify-center text-center md:text-left order-2 md:order-1"> 
 <p className="text-2xl font-bold">
