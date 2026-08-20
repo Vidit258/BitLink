@@ -29,20 +29,20 @@ export default async function Home() {
   return (
     <main className="bg-purple-100"> 
     <div className="min-h-screen flex flex-col justify-center gap-6 py-6">
-        <section className="grid grid-cols-2 h-[38vh] items-center">   
-<div className="flex flex-col gap-3 items-center justify-center"> 
+        <section className="grid grid-cols-1 md:grid-cols-2 gap-6 md:h-[38vh] items-center px-6 md:px-8">   
+<div className="flex flex-col gap-3 items-center md:items-start justify-center text-center md:text-left order-2 md:order-1"> 
 <p className="text-2xl font-bold">
  The best URL shortner in the market
 </p>
-<p className="px-56 text-sm"> 
+<p className="text-sm max-w-md"> 
   We are the most straightforward URL shortner in the world.
   Most of the URLshortners will track you or ask you to give 
   your details for login. we understand your needs and hence
   we have created this URL shortner
 </p>
 </div>
-<div className=" flex justify-start relative h-full"> 
-<Image className="mix-blend-darken" alt="an Image of a vector" src={"/vector.jpg"}  fill={true} />
+<div className="flex justify-center md:justify-start relative h-56 md:h-full w-full order-1 md:order-2"> 
+<Image className="mix-blend-darken object-contain" alt="an Image of a vector" src={"/vector.jpg"}  fill={true} />
 </div>
         </section>  
 
